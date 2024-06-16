@@ -53,7 +53,7 @@ export async function signInAction() {
 }
 
 export async function signOutAction() {
-  await signOut("google", { redirectTo: "/" });
+  await signOut("google", { redirectTo: "/account" });
 }
 
 export async function deleteReservation(bookingId) {
